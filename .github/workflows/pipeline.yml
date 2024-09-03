@@ -130,7 +130,7 @@ jobs:
       url: https://devopsfiap-on-app.azurewebsites.net/
     steps:
        - name: Download JAR
-         uses: actions/download-artifact@v3
+         uses: actions/download-artifact@v4.1.7
          with:
            name: artifact
            path: target/  
@@ -151,7 +151,7 @@ jobs:
       url: http://devopsfiap-0n-env-1.eba-a9357rgy.us-east-1.elasticbeanstalk.com/
     steps:
       - name: Download JAR
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: artifact
           path: target/
