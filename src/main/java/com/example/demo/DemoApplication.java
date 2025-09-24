@@ -49,16 +49,7 @@ public class DemoApplication {
 	
 	@GetMapping("/fiap")
 	String turma(){
-		return "DEVOPS FIAP - VERSAO 1.0";
+		return "DEVOPS FIAP - VERSAO 2.99999";
 	}
 	
-	@GetMapping("/fiapv2")
-	String turmav2(){
-		return "DEVOPS FIAP - VERSAO 2.0";
-	}
-	
-	@GetMapping("/aws")
-	String awsEnv(){
-		return "DEVOPS FIAP - Versão AWS";
-	}
 }	
